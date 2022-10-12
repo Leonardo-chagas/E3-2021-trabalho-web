@@ -1,0 +1,27 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    margin-left: 91px;
+    margin-right: 92px;
+}
+li.nav {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li.nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+li.nav a:hover {
+    background-color: #111;
+}
+#active {
+    background-color: teal;
+}

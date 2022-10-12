@@ -1,0 +1,57 @@
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 600px;
+    height: 30px;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 600px;
+    height: 70px;
+    resize: none;
+}
+#postar {
+    width: 150px;
+    height: 20px;
+    background-color: black;
+    color: white;
+}
+#postar:hover {
+    background-color: blue;
+    transition: 0.3s;
+}
+#commentForm {
+    text-align: left;
+    position: relative;
+    left: 270px;
+}
+#separador {
+    color: white;
+    background-color: white;
+}
+#nomeUsuario {
+    font-size: 18px;
+    white-space: nowrap;
+}
+#emailUsuario {
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
+}
+#comentarioUsuario {
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+#comentarios {
+    position: relative;
+    right: 300px;
+    left: 300px;
+    width: 800px;
+}
+.error {
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    background-color: rgb(221, 221, 221);
+    color: rgb(146, 11, 11);
+}
